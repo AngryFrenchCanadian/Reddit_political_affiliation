@@ -1,0 +1,19 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.whole-page {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card {
+    align-self: center;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.go-btn, .input  {
+    margin-top: 1em;
+}
